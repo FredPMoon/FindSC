@@ -1,0 +1,749 @@
+@charset "UTF-8";
+.homeBody {
+	background: url("img/background_village.jpg") no-repeat center center fixed;
+	background-size: 100%;
+	color: #ffffff;
+	margin: 0px;
+	font-family: 'Yantramanav', sans-serif;
+	font-weight: 300;
+}
+.loginBody{
+	background: url("img/background_tommy_trojan.jpg") no-repeat fixed;
+	background-size: 125%;
+	background-position: 0% 50%; 
+	color: #ffffff;
+	margin: 0px;
+	font-family: 'Yantramanav', sans-serif;
+	font-weight: 300;
+}
+#darkBackground{
+	 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/background_village.jpg") no-repeat center center fixed;
+	 background-size: 100%;
+	 
+}
+
+.menuBar ul{
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    
+    z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.homeMenuBar{
+	background-color: #320a12;
+}
+.loginMenuBar{
+	background-color: #0e0904;
+}
+
+li.logo a{
+	background: url("img/logo.png") no-repeat;
+	z-index: 10;
+	background-size: 105px 46px;
+	min-height: 46px;
+    min-width: 105px;
+    margin-right: 40px;
+	float:left;
+}
+a{
+	text-decoration: none;
+    color: white;
+}
+
+
+a.userOperation{
+	float: right;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+a.userOperation:hover{
+	cursor: pointer;
+	background-color: #550000;
+}
+
+a.menuBarOption{
+	float: left;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+#highlight{
+	background-color: #550000;
+}
+
+.loginMenuBar a{
+	float: left;
+}
+
+.mainMessage{
+	font-weight: 500;
+	font-size: 300%;
+	text-align: center;
+	margin: 100px;
+}
+.bodyBox{
+	width: 700px;
+	height: 200px;
+	margin: auto;
+}
+.bodyContent ul{
+	
+	list-style-type: none;
+    overflow: hidden;    
+}
+.bodyContent li{
+	display: block;
+	margin-top: 30px;
+	float:left;	
+}
+#lostIcon{
+	background: url("img/magnifying_mirror.png") no-repeat;
+	z-index: 10;
+	background-size: 120px 120px;
+	min-height: 120px;
+    min-width: 120px;
+  
+}
+#foundIcon{
+	background: url("img/box.png") no-repeat;
+	z-index: 10;
+	background-size: 120px 120px;
+	min-height: 120px;
+    min-width: 120px;
+
+}
+#verticalLine{
+	background: url("img/vertical_line.png") no-repeat;
+	z-index: 10;
+	background-size: 120px 120px;
+	min-height: 120px;
+    min-width: 110px;    
+}
+
+.bodyBox a{
+	display: block;
+	margin-top: 55px;
+	font-size: 140%;
+} 
+
+.bodyBox{
+	background-color: rgba(0, 0, 0, 0.4)
+	
+}
+
+#loginBox input[type="text"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 210px;
+    margin-right: 20px;
+
+}
+#loginBox input[type="password"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 210px;
+    margin-right: 20px;
+
+}
+#loginBox input[type="submit"]{
+	margin:0;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+	padding: 8px 24px;
+	border-radius: 4px;
+	width: 150px;
+	margin-left: 70px;
+}
+
+
+ ul#loginBox{
+	list-style-type: none;
+    
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+	margin-top: 10%;
+	padding: 30px;
+}
+
+#loginBox p{
+	margin:0;
+	font-size: 26px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    width: 180px;
+    margin-left: 60px;
+    margin-right: 60px; 
+    display: block;
+}
+input:focus {
+    outline:none;
+}
+.icon{	
+	z-index: 10;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+#userIcon{
+	background: url("img/user_icon.png") no-repeat;
+	background-size: 25px 25px;
+}
+#lockIcon{
+	background: url("img/lock_icon.png") no-repeat;
+	background-size: 25px 25px;
+}
+
+#emailIcon{
+	background: url("img/email_icon.png") no-repeat;
+	background-size: 25px 25px;
+}
+
+#idIcon{
+	background: url("img/id_icon.png") no-repeat;
+	background-size: 25px 25px;
+}
+#phoneIcon{
+	background: url("img/phone_icon.png") no-repeat;
+	background-size: 25px 25px;
+}
+
+#loginBox li.loginRedirect{
+	margin: 0;
+	display: block;
+    margin-top: 10px;
+}
+#loginBox li.loginRedirect a{
+	margin: 0;
+	float: left;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 30px;
+}
+#loginBox input[type="submit"]:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+#errorMessage{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 8px;
+	min-width: 100px;
+}
+#greeting{
+	margin-top: 8px;
+}
+
+#signupBox input[type="text"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 210px;
+    margin-right: 20px;
+
+}
+#signupBox input[type="email"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 210px;
+    margin-right: 20px;
+
+}
+#signupBox input[type="password"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 210px;
+    margin-right: 20px;
+
+}
+#signupBox input[type="submit"]{
+	margin:0;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+	padding: 8px 24px;
+	border-radius: 4px;
+	width: 150px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+
+ ul#signupBox{
+	list-style-type: none;
+    
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    margin-left: 15%;
+	margin-top: 3%;
+	padding: 30px;
+}
+
+#signupBox p{
+	margin:0;
+	font-size: 26px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    width: 180px;
+    margin-left: 60px;
+    margin-right: 60px; 
+    display: block;
+}
+input:focus {
+    outline:none;
+}
+.userIcon{
+	background: url("img/user_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+.lockIcon{
+	background: url("img/lock_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+     margin-left: 20px;
+}
+#pencilIcon{
+	background: url("img/pencil_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+#locationIcon{
+	background: url("img/location_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+#timeIcon{
+	background: url("img/time_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+#tagIcon{
+	background: url("img/tag_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+#rewardIcon{
+	background: url("img/reward_icon.png") no-repeat;
+	z-index: 10;
+	background-size: 25px 25px;
+	min-height: 25px;
+    min-width: 25px;
+    margin-left: 20px;
+}
+
+
+
+#signupBox li.loginRedirect{
+	margin: 0;
+	display: block;
+    margin-top: 10px;
+}
+#signupBox li.loginRedirect a{
+	margin: 0;
+	float: left;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 30px;
+}
+#signupBox input[type="submit"]:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+#signupBox li{
+	margin-top: 20px;
+}
+
+div#itemPostingBox{
+    overflow: hidden;
+    width: 950px;
+    height: 500px;
+    margin: auto;
+	margin-top: 4%;
+	padding: 30px;
+	
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+#itemPostingBox input[type="text"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 280px;
+    height: 25px;
+    margin-right: 20px;
+
+}
+#itemPostingBox input[type="date"]
+{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 280px;
+    height: 25px;
+    margin-right: 20px;
+
+}
+
+#itemPostingBox select
+{
+	background-color: transparent;
+	color: white;
+	margin:0;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+    width: 280px;
+    height: 25px;
+    margin-right: 20px;
+    outline: none;
+
+}
+#itemPostingBox input[type="submit"]{
+	margin:0;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+	padding: 8px 24px;
+	border-radius: 4px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+
+#itemPostingBox input[type="submit"]:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+#itemPostingBox input[type="file"]{
+	display: none;
+}
+.custom-file-upload:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+.custom-file-upload {
+	margin:0;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+	padding: 8px 24px;
+	border-radius: 4px;
+	width: 100px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+div.inputField{
+	margin-top: 25px;
+}
+#inputFields{
+	margin-top: 55px;
+	margin-left: 40px;
+	width: 400px;
+	float: left;
+}
+#image{
+	width: 400px;
+	float: right;
+	margin-top: 80px;
+}
+#postingMessage{
+	margin-left: 40px;
+	margin-top: 10px;
+	min-height: 21px;
+}
+div#itemViewingBox{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 950px;
+    height: 540px;
+    margin: auto;
+	margin-top: 2.5%;
+	padding: 30px;
+	
+	background-color: rgba(0, 0, 0, 0.5)
+}
+#itemViewingBox input[type="submit" ]{
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+	padding: 5px 20px;
+	border-radius: 4px;
+	margin:auto;
+	margin-top: 25px;
+}
+#itemViewingBox input[type="submit" ]:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+div.text{
+	font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+}
+#attributeFields{
+	margin-left: 50px;
+	width: 400px;
+	float: left;
+}
+img#horizontalLine{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 950px;
+}
+textarea{
+	margin:0;
+    background: transparent;
+    border: none;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+    width: 870px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+textarea:focus {
+    outline:none;
+}
+#viewItemImage{
+	width: 400px;
+	float: right;
+	margin-top: 60px;
+}
+#uploadImage{
+	width: 300px;
+	height:300px;
+}
+.commentIcon{
+	width: 60px;
+	height:60px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left:70px;
+	float:left;
+}
+.textArea{
+	float:left;
+	margin-left: 20px;
+}
+div.comment{
+	width: 1000px;
+	height: 90px;
+}
+div.commentUser{
+	display: inline-block;
+	font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    margin-right: 10px;
+}
+div.commentTime{
+	font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+	display: inline-block;
+}
+div.commentContent{
+	margin-top:5px;
+}
+div#itemsViewingBox{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 950px;
+    height: 540px;
+    margin: auto;
+	margin-top: 2.5%;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+#itemsViewingBox h1{
+	font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+#itemsViewingBox select
+{
+	float: right;
+	margin:0;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+    width: 170px;
+    height: 25px;
+    margin-right: 10px;
+    outline: none;
+
+}
+#itemsViewingBox input[type="submit" ]{
+	background-color: rgba(255, 255, 255, 0.0);
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	color: white;
+	text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 100%;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+	padding: 1px 10px;
+	border-radius: 4px;
+	width:55px;
+	float:right;
+	margin-right: 10px;
+}
+#itemsViewingBox input[type="button" ]{
+	background-color: rgba(255, 255, 255, 0.0);
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	color: white;
+	text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 100%;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+	padding: 1px 10px;
+	border-radius: 4px;
+	width:55px;
+	float:right;
+
+}
+#itemsViewingBox input[type="submit" ]:hover{
+	cursor: pointer;
+}
+#itemsViewingBox input[type="button" ]:hover{
+	cursor: pointer;
+}
+#filter{
+	margin-right: 115px;
+}
+
+#items{
+	margin-top: 70px;
+	margin-left: 80px;
+}
+.item{
+	float:left;
+	display: block;
+}
+
+.item img{
+	width: 250px;
+	height: 250px;
+	margin:5px;
+}
+
+.itemName{
+	text-align:center;
+	width:250px;
+}
+
