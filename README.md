@@ -6,3 +6,8 @@
  2. Shunkai Zhang (shunkaiz@usc.edu)
  3. Yuntian Xu (yuntianx@usc.edu)
  4. Yue Zhu (yuezhu@usc.edu)
+
+- **Related Technologies**:
+ 1. Frontend UI Rendering: HTML5, CSS3, JavaScript, jQuery, AJAX
+ 2. Backend controller and APIs: Java servlet, Java Mail API, WebSocket
+ 3. Database: MySQL database
